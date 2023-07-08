@@ -16,12 +16,26 @@ body {
     height: 100vh;
 }
 
-.main {
-    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
-    width: 90%;
+.main-animate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
     height: 90%;
-    background-color: #1c1c1c;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #180bc5;
     border-radius: 24px;
+    
+}
+
+.main {
+    position:sticky;
+    border-radius: 24px;
+    background-color: #1c1c1c;
+    width: 99%;
+    height: 99%;
+    overflow: hidden;
 }
 
 .main::before {
