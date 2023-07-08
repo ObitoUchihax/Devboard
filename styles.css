@@ -19,7 +19,7 @@ body {
 .main {
     width: 90%;
     height: 90%;
-    background-color: rgb(241, 239, 239);
+    background-color: #1c1c1c;
     border-radius: 24px;
 }
 
@@ -36,19 +36,19 @@ body {
     width: 190px;
     text-align: center;
     padding:8px;
-    background-color: #fff;
+    background-color: #23242a;
     border-radius: 16px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px rgba(24, 11, 197, 0.2);
 }
 
 .navbar h2 {
     letter-spacing: 0.05rem;
     cursor: pointer;
-    color: #37383d;
+    color: #fff;
 }
 
 .navbar h4 {
-    color: #5e5f61;
+    color: #c4c4c4;
     font-size: 1rem;
     letter-spacing: 0.05rem;
 }
